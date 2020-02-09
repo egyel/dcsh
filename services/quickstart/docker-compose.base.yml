@@ -1,0 +1,12 @@
+#############################
+# Docker Quickstart
+# 
+#############################
+
+version: "3.4"
+
+services:
+  app:
+    image: bulletinboard:1.0
+    networks: 
+      - docker-net

@@ -1,0 +1,11 @@
+#############################
+# Docker Quickstart
+# DC_ENV: prod
+#############################
+
+version: "3.4"
+
+services:
+  app:
+    ports: 
+      - 8000:8080

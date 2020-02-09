@@ -1,0 +1,12 @@
+#############################
+# Hello World
+# 
+#############################
+
+version: "3.4"
+
+services:
+  hi:
+    image: hello-world:latest
+    networks: 
+      - docker-net
